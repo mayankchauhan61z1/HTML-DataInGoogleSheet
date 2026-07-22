@@ -47,8 +47,7 @@ project-folder/
 
 ### 1. Clone or Download
 
-```bash
-git clone https://github.com/yourusername/contact-form.git
+https://github.com/mayankchauhan61z1/HTML-DataInGoogleSheet.git
 
 Or download the ZIP and extract it.
 
@@ -56,21 +55,25 @@ Or download the ZIP and extract it.
 
 Open the project folder in VS Code or any code editor.
 
-### 3. Run
+### 3. Create Googlesheet
+
+<img width="623" height="244" alt="Screenshot 2026-07-22 120235" src="https://github.com/user-attachments/assets/1cdf93cd-9949-4fa3-a490-74e5fc3dcfd9" />
+
+
+## 🔗 API Endpoint
+### 4. Create end point api using sheeetdb
+Replace the endpoint with your own SheetDB API.
+
+<img width="772" height="440" alt="Screenshot 2026-07-22 120057" src="https://github.com/user-attachments/assets/fdd8a899-6b47-4474-99db-657a5866d62f" />
+
+<img width="857" height="137" alt="Screenshot 2026-07-22 120119" src="https://github.com/user-attachments/assets/fc26103e-0986-4631-81fc-8f7667f45b69" />
+
+
+### 5. Run
 
 Simply open **index.html** in your browser.
 
-No installation is required.
 
-## 🔗 API Endpoint
-
-The form submits data to:
-
-```
-https://sheetdb.io/api/v1/vfsdup6cqoizg
-```
-
-Replace this endpoint with your own SheetDB API if needed.
 
 ## 📱 Responsive Design
 
