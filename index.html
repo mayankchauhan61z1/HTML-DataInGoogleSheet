@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- google sheet link is = https://script.google.com/macros/s/AKfycbx6B3JmE0_2uhI1ligwKtAoG8HEu-a41MntCTs6YAkCumpG1Sroj5F14xB_ntmd3uQs/exec -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="mainForm">
+    <form class="googleSheet" method="post" action="https://sheetdb.io/api/v1/vfsdup6cqoizg" name="googleSheet" autocomplete="off">
+        <h3>Contact Form</h3>
+        <label for="Name">Name : </label>
+        <input type="text" class="inputData" id="Name" name="data[Name]" placeholder="Enter the name" required>
+        <label for="Email">Email : </label>
+        <input type="email" class="inputData" id="Email" name="data[Email]" placeholder="Enter the email" required>
+        <label for="ContactNO"> Contact No : </label>
+        <input type="Number" class="inputData" id="ContactNO" name="data[ContactNo]" placeholder="Enter the Number" required>
+        <!-- <input type="radio" class="inputData" id="Male" name="Male" checked>
+        <label for="Male">Male</label>
+        <input type="radio" class="inputData" id="FeMale" name="FeMale" checked>
+        <label for="FeMale">Female</label> -->
+        <label for="Message">Message : </label>
+        <textarea name="data[Message]" class="inputData" id="Message" rows="4" required></textarea>
+        <input type="submit"></input>
+        <button type="reset" class="reset">Clear the form</button>
+    </form>
+</div>    
+
+</body>
+</html>

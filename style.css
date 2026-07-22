@@ -1,0 +1,107 @@
+/* General Reset & Page Setup */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f4f7f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Centered Form Wrapper */
+.mainForm {
+    width: 100%;
+    max-width: 450px;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Layout */
+.googleSheet {
+    display: flex;
+    flex-direction: column;
+}
+
+.googleSheet h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333333;
+    font-size: 24px;
+}
+
+/* Labels & Input Styling */
+.googleSheet label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #555555;
+    font-size: 14px;
+}
+
+.inputData {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.inputData:focus {
+    outline: none;
+    border-color: #4A90E2;
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.3);
+}
+
+textarea.inputData {
+    resize: vertical;
+    min-height: 100px;
+} 
+
+/* Submit and Reset Buttons */
+input[type="submit"], 
+.reset {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.reset {
+    background-color: #e74c3c;
+    color: white;
+}
+
+.reset:hover {
+    background-color: #c0392b;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 480px) {
+    .mainForm {
+        padding: 20px;
+    }
+}
