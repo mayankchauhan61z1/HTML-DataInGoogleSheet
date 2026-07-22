@@ -1,2 +1,3 @@
 # HTML-DataInGoogleSheet
-Simple Implementation how we use google sheets as database eg store user info. compatable in only for small project
+Simple implementation of how we use google sheets as database eg store user info. Compatible only for small projects.
+
